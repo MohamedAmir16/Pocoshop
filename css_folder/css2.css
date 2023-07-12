@@ -123,9 +123,9 @@ border: 2px double blue;
 #shipp {
 position: relative;
 }
-@media screen and(max-width:600px){
+@media screen and(max-width:768px){
 body{
-    width:600px;
+    width:768px;
 }
 
 
