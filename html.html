@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link href="css_folder/css.css" rel="stylesheet">
+    <link href="css_folder/css2.css" rel="stylesheet">
+    <link rel="icon" href="css_folder/favicon.png" type="image/x-icon">
+
+</head>
+<body>
+    
+   <div class="header"> 
+    <h1>Poco shop</h1>
+    <a href="html.html" ><img src="css_folder/logo_poco.jpg" alt=" " ></a>
+    <div class="text"><input type="text" name="produit" placeholder="Rechercher le produit" ></div>
+    <div class="button"><input type="submit" value="Rechercher" ></div>
+    <div class="facebook"><a href="https://www.facebook.com/profile.php?id=100092366551608" target="_blank"><img src="css_folder/facebook.png" alt=" " ></a></div>
+    <div class="insta"><a href="" target="_blank"><img src="css_folder/insta.png" alt=" " ></a></div>
+  </div>
+  <hr>
+      
+  <div class="body"> 
+    <h2>Game stick pro</h2>
+    <div class="presentation">
+      <h3><u>Présentation de l'article :</u></h3>
+      <p>
+        1. Liste des jeux, y compris pour ps1/atari/mame/sfc/fc/gba/gb/gbc/md jeux émulateur, total(64G) 20000 + jeux<br>
+        2. Historique du jeu, liste d'enregistrement du jeu, classé par heure d'entrée au jeu<br>
+        3. Collection de jeux, vous pouvez utiliser le bouton START pendant trois secondes pour collecter vos jeux préférés
+      </p>
+      <h4>Pour commander, remplissez le formulaire</h4>
+    </div>
+    <div class="product1"><img src="css_folder/game_stickpro.jpg" alt=""></div>
+    <form>
+      <div class="nom"><label>Prenom :</label><br><input type="text" placeholder="Prenom" name="nom"></div>
+      <div class="add"><label>Adresse :</label><br><input type="text" placeholder="Adresse" name="add"></div>
+      <div class="num"><label>Numero de telephone :</label><br><input type="text" placeholder="Numero de telephone" name ="num"></div>
+      <div class="envoyer"><input type ="submit" value="Acheter" id="contactForm" onclick="ship()"></div>
+      <div class="city"><select id="out" onchange="Prix()"><option value ="Alger">Alger</option><option value="Blida">Blida</option>
+        <option value="Boumerdes">Boumerdes</option>
+      
+      
+      
+      
+      
+      </select><span id="shipp"></span></div>
+      
+    </form>  
+  <div class="price" ><span id ="price" >Prix
+  </span></div>  
+  </div>  
+<script src="java.js"></script>
+</body>
+</html>

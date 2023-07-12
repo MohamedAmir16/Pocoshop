@@ -1,0 +1,95 @@
+html{
+    background-color: black;
+}
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.header h1{
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    font-size:  50px; 
+    left: 20%;
+    top: 0%;
+   
+}
+.header img {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border:2px solid rgb(0, 0, 0) ;
+    border-radius: 10px;
+    top: 5%;
+    left: 1%;
+  
+}  
+.header a  :hover{ 
+   transform: scale(1.1);   
+}
+.header {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 90px;
+    padding-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique; 
+    border: 4px solid black;
+    border-radius: 10px;
+}
+.text input{
+    width: 250px;
+    height: 20px;
+}
+.button input{
+background-color: rgb(194, 30, 180);
+width: 100px;
+border: 1px white solid;
+border-radius: 10px;
+
+}
+.button{
+    position: absolute;
+  right: 25%;
+    top: 45%;  
+}
+.text{
+    position:absolute;
+    right: 35%;
+    top: 40%;
+    
+}
+.text :focus{
+transform: scale(1.05);
+}
+.facebook a img{  
+    width: 50px;
+    height: 50px;
+ 
+ 
+}
+.facebook a :hover{
+    border: white 2px solid;
+}
+.facebook a :hover{
+    border: white 2px solid;
+}
+.insta a :hover{
+    border: white 2px solid;
+}
+.facebook a {
+    
+   position: absolute; 
+   right: 10%;
+   top:10%
+}
+.insta a img {
+    width: 60px;
+    height: 50px;
+}
+.insta a  {
+    position: absolute; 
+   right: 5%;
+   top:10%
+}
