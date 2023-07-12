@@ -123,3 +123,10 @@ border: 2px double blue;
 #shipp {
 position: relative;
 }
+@media screen and(max-width:600px){
+body{
+    width:600px;
+}
+
+
+}
